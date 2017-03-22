@@ -1,34 +1,5 @@
 /* -------------------------------- 
 
-Primary style
-
--------------------------------- */
-*, *::after, *::before {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 1.6rem;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #003c5d;
-  background-color: #ffffff;
-}
-
-a {
-  color: #9acd91;
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* -------------------------------- 
-
 Stretchy Nav style - common to:
  - basic navigation
  - add-content navigation
