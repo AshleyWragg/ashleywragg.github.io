@@ -112,14 +112,15 @@ nav .container{
 	align-items:center;
 }
 
-.nav h3{
+.topnav h3{
 	margin-bottom:0px; 
 	margin-top:0px;
 	color:#fff;
 }
 
-nav h3:hover{
+.topnav h3:hover{
 	font-style: none;
+	color:#fff;
 }
 
 .banner{
