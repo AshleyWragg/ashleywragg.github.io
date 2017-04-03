@@ -54,3 +54,171 @@ body {
     text-align: left;
   }
 }
+
+html{
+	min-height: 100%;
+	position: relative;
+
+}
+
+body{
+	color: #6B6B6B;
+	background-color: #F2F2F2;
+	word-wrap: break-word;
+	font-family: "Century Gothic";
+	line-height: 1.7;
+	font-size: 14px;
+	margin-bottom: 51px;
+}
+
+@font-face{
+  font-family: freestyle;
+  src: url(fonts/freescript.ttf);
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+nav{
+	width: 100%;
+	background-color: #4d4d4d;
+	background-image: url(images/5.png);
+	background-repeat: no-repeat;
+}
+
+footer{
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	bottom: -140px;
+	background-color: #4d4d4d;
+}
+
+nav ul{
+	list-style: none;
+	text-align: right;
+	font-size: 16px;
+}
+
+nav ul a:active, a:focus{
+	color: #06d6a0;
+}
+
+nav ul a{
+	color: #ffffff;
+}
+
+nav ul a:hover{
+	color: #1579a6;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-left: 15px;
+}
+
+nav .container{
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+}
+
+nav h3{
+	margin-bottom:20px; 
+	margin-top:20px;
+	color:#fff;
+}
+
+nav h3:hover{
+	font-style: none;
+}
+
+.banner{
+	background-image: url("dishonored2.jpg");
+	height: 500px;
+	background-position: center center;
+	background-size: cover;
+	display: flex;
+	align-items:center;
+}
+
+.innerbanner{
+	width: 100%;
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.banner h1{
+	font-size: 60px;
+	text-align: center;
+	color: #1579a6;
+}
+
+.banner h3{
+	color: #ffffff;
+}
+
+.podbtn{
+	background-color: #4d4d4d;
+	background-image: url(images/5.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 10px 30px;
+	border-radius: 5px;
+	border: solid 2px #06d6a0;
+	color: #ffffff;
+	transition: ease-in-out all 0.4s;
+	font-family: freestyle;
+	font-size: 45px;
+	box-shadow: 0px 0px 5px #000;
+	text-shadow: 0px 0px 5px #000;
+}
+
+.podbtn:hover{
+	border: solid 2px #1579a6;
+	box-shadow: 0px 0px 1px #000;
+	text-shadow: 0px 0px 1px #000;
+}
+
+.circle{
+	display: flex;
+	align-items:center;
+	color: #ffffff;
+	background-color: #4d4d4d;
+	border: solid 2px #06d6a0;
+	border-radius: 100%;
+	width: 180px;
+	height: 180px;
+	text-align: center;
+	box-shadow: 0px 0px 20px #000;
+	z-index: 2;
+}
+
+.lowerbanner{
+	position: relative;
+	top: -90px;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+
+.audio{
+	height:30px;
+	width:50%;
+	position: relative;
+	top: -30px;
+	left:25%;
+	background-color: #1579a6;
+}
+
+.slider{
+	width: 100%;
+	height: 150px;
+	background-color: #4d4d4d
+}
+
+
+
+
