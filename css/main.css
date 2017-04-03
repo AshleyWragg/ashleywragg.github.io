@@ -2,7 +2,7 @@
 	overflow: hidden;
 	background-color: #4d4d4d;
 	background-image: url(../img/5.png);
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 }
 
 /* Style the links inside the navigation bar */
