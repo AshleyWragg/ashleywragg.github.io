@@ -73,7 +73,7 @@ body{
 
 @font-face{
   font-family: freestyle;
-  src: url(fonts/freescript.ttf);
+  src: url(../fonts/freescript.ttf);
 }
 
 a:hover{
@@ -83,7 +83,7 @@ a:hover{
 nav{
 	width: 100%;
 	background-color: #4d4d4d;
-	background-image: url(img/5.png);
+	background-image: url(../img/5.png);
 	background-repeat: no-repeat;
 }
 
@@ -135,7 +135,7 @@ nav h3:hover{
 }
 
 .banner{
-	background-image: url("img/dishonored2.jpg");
+	background-image: url("../img/dishonored2.jpg");
 	height: 500px;
 	background-position: center center;
 	background-size: cover;
@@ -162,7 +162,7 @@ nav h3:hover{
 
 .podbtn{
 	background-color: #4d4d4d;
-	background-image: url(img/5.png);
+	background-image: url(../img/5.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding: 10px 30px;
