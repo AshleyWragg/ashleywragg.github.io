@@ -323,7 +323,13 @@ nav ul li{
 	}
 
 	.fullpage--section{
-	width: 90%;
-    margin-top: 25px;
-    margin-bottom: 25px;
+		width: 90%;
+    		margin-top: 25px;
+    		margin-bottom: 25px;
+	}
+	
+	.fullpage--section--1{
+	   margin-top:85px;
+	}
+
 }
