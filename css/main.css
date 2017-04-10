@@ -33,11 +33,11 @@ nav{
 }
 
 footer{
-	/*width: 100%;
+	width: 100%;
 	height: 200px;
 	position: absolute;
 	bottom: -140px;
-	background-color: #4d4d4d;*/
+	background-color: #4d4d4d;
 }
 
 nav ul{
@@ -77,6 +77,10 @@ nav ul li{
 	transition: ease-in-out all 0.4s;
 }
 
+.fa-bars{
+	display: none;
+}
+
 .fixed{
 	position: fixed;
 	top: 0;
@@ -107,7 +111,7 @@ nav ul li{
     font-size: 20px;
     padding-top: 30px;
     color: #fff;
-    z-index: 10;
+    z-index: 1;
 }
 
 .social .fa{
@@ -125,7 +129,7 @@ nav ul li{
 }
 
 .banner{
-	background-image: url(/images/dishonored2.jpg);
+	background-image: url(../images/11.jpg);
 	height: 520px;
 	background-position: center center;
 	background-size: cover;
@@ -144,6 +148,9 @@ nav ul li{
 	font-size: 60px;
 	text-align: center;
 	color: #1579a6;
+	background-color: rgba(255,255,255, 0.7);
+	padding: 10px;
+	border-radius: 5px;
 }
 
 .banner h3{
@@ -152,7 +159,7 @@ nav ul li{
 
 .podbtn{
 	background-color: #4d4d4d;
-	background-image: url(/images/5.png);
+	background-image: url(../images/5.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding: 10px 30px;
@@ -218,7 +225,7 @@ nav ul li{
     padding-top: 60px;
     min-height: 100%;
     min-width: 100%;
-    background-image: url(/img/12.jpg);
+    background-image: url(../images/12.jpg);
     background-position: center center;
     background-size: cover;
 }
@@ -302,12 +309,34 @@ nav ul li{
 		font-size: 19px;
 	}
 
-	nav ul li{
-		display: none;
+	nav ul{
+		position: fixed;
+	    width: 100%;
+	    display: flex;
+	    flex-direction: column;
+	    top: 40px;
+	    text-align: right;
+	    list-style: none;
+	    font-size: 15px;
+	    margin-top: 0px;
+	    margin-bottom: 0px;
+	    padding: 0px;
+	    transition: ease-in-out all 0.4s;
+	    background-color: rgba(77,77,77,0.7);
+
 	}
 
-	nav ul li a i{
+	nav ul li{
+		display: none;
+		z-index: 10;
+	}
+
+	.fa-bars{
 		display: inline-block;
+	    /* align-self: flex-end; */
+	    position: absolute;
+	    right: 5px;
+	    color: #fff;
 	}
 
 	.social{
@@ -316,20 +345,18 @@ nav ul li{
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		padding-top: 20px;
+		padding-top: 0px;
 		padding-right: 0px;
 		font-size: 30px;
 		color:#fff;
 	}
 
 	.fullpage--section{
-		width: 90%;
-    		margin-top: 25px;
-    		margin-bottom: 25px;
+	width: 90%;
+    margin-top: 25px;
+    margin-bottom: 25px;
 	}
-	
 	.fullpage--section--1{
-	   margin-top:85px;
+		margin-top: 50px;
 	}
-
 }
