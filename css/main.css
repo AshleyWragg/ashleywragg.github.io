@@ -18,7 +18,7 @@ body{
 
 @font-face{
   font-family: freestyle;
-  src: url(../fonts/freescript.ttf);
+  src: url(/fonts/freescript.ttf);
 }
 
 a:hover{
@@ -28,7 +28,7 @@ a:hover{
 nav{
 	width: 100%;
 	background-color: rgba(77,77,77,0.7);
-	/*background-image: url(../images/5.png);*/
+	/*background-image: url(/img/5.png);*/
 	background-repeat: no-repeat;
 }
 
@@ -125,7 +125,7 @@ nav ul li{
 }
 
 .banner{
-	background-image: url(../images/11.jpg);
+	background-image: url(/img/11.jpg);
 	height: 520px;
 	background-position: center center;
 	background-size: cover;
@@ -155,7 +155,7 @@ nav ul li{
 
 .podbtn{
 	background-color: #4d4d4d;
-	background-image: url(../images/5.png);
+	background-image: url(/img/5.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding: 10px 30px;
@@ -221,7 +221,7 @@ nav ul li{
     padding-top: 60px;
     min-height: 100%;
     min-width: 100%;
-    background-image: url(../images/12.jpg);
+    background-image: url(/img/12.jpg);
     background-position: center center;
     background-size: cover;
 }
